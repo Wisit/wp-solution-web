@@ -1,0 +1,15 @@
+baseURL = 'https://[username].github.io/wp-solution-web/'
+languageCode = 'th-th'
+title = 'WP Solution Co., Ltd.'
+theme = 'PaperMod'
+
+[languages]
+  [languages.th]
+    languageName = 'ไทย'
+    contentDir = 'content/th'
+    weight = 1
+  
+  [languages.en]
+    languageName = 'English'
+    contentDir = 'content/en'
+    weight = 2
