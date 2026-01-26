@@ -1,0 +1,16 @@
+# Hugo Generated
+public/
+resources/
+.hugo_build.lock
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor Directories
+.vscode/
+.idea/
+
+# Environment Variables (เผื่ออนาคต)
+.env
