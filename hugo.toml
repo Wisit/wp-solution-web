@@ -1,15 +1,109 @@
-baseURL = 'https://[username].github.io/wp-solution-web/'
+baseURL = 'https://wpsolution.github.io/'
 languageCode = 'th-th'
 title = 'WP Solution Co., Ltd.'
 theme = 'PaperMod'
 
-[languages]
-  [languages.th]
-    languageName = 'ไทย'
-    contentDir = 'content/th'
-    weight = 1
+# System Settings
+defaultContentLanguage = 'th'         # เข้าเว็บมาเจอภาษาไทยก่อน (Local First)
+defaultContentLanguageInSubdir = true # บังคับให้ url เป็น /th/ และ /en/ เสมอ เพื่อโครงสร้างที่เป็นระเบียบ
+enableEmoji = true
+
+# -----------------------------------------------------------------------
+# Parameters (Profile & Styling)
+# -----------------------------------------------------------------------
+[params]
+  env = "production"
+  title = "WP Solution"
+  description = "ผู้เชี่ยวชาญโซลูชั่นระบบอัตโนมัติและซอฟต์แวร์อุตสาหกรรม (Industrial Automation & Software Architect)"
+  keywords = ["Automation", "PLC", "C#", "IoT", "Smart Factory", "AGV", "Fleet Management"]
+  author = "WP Solution Team"
   
-  [languages.en]
-    languageName = 'English'
-    contentDir = 'content/en'
-    weight = 2
+  # Theme Settings
+  defaultTheme = "auto"    # รองรับ Dark Mode อัตโนมัติ
+  ShowReadingTime = true   # โชว์เวลาอ่าน (เหมาะกับ Tech Blog)
+  ShowShareButtons = true  # ปุ่มแชร์
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true # สำคัญมากสำหรับเว็บสาย Tech
+
+  # Profile Mode (หน้าแรกแบบ Landing Page)
+  [params.profileMode]
+    enabled = true
+    title = "WP Solution Co., Ltd."
+    subtitle = "Industrial Automation & Software Architecture Experts"
+    imageUrl = "/images/logo.png" # เดี๋ยวเราเอารูปโลโก้ไปใส่ใน folder /static/images/
+    imageTitle = "WP Solution Logo"
+    imageWidth = 150
+    imageHeight = 150
+    
+    # ปุ่ม Call to Action หน้าแรก
+    [[params.profileMode.buttons]]
+      name = "ผลงานของเรา (Projects)"
+      url = "/projects"
+    [[params.profileMode.buttons]]
+      name = "บริการ (Services)"
+      url = "/services"
+
+  # Social Icons (เชื่อมโยงตามไฟล์ที่ส่งมา)
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:wisit.paewkratok@gmail.com"
+  [[params.socialIcons]]
+    name = "line"
+    url = "https://line.me/ti/p/~wisit.p"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/wpsolution" 
+
+# -----------------------------------------------------------------------
+# Languages Configuration (Multi-Language Logic)
+# -----------------------------------------------------------------------
+
+# --- ภาษาไทย (Default) ---
+[languages.th]
+  languageName = "🇹🇭 ไทย"
+  weight = 1
+  contentDir = "content/th"
+  
+  [languages.th.menu]
+    [[languages.th.menu.main]]
+      name = "ผลงาน (Case Studies)"
+      url = "/projects/"
+      weight = 10
+    [[languages.th.menu.main]]
+      name = "บริการ"
+      url = "/services/"
+      weight = 20
+    [[languages.th.menu.main]]
+      name = "เกี่ยวกับเรา"
+      url = "/about/"
+      weight = 30
+    [[languages.th.menu.main]]
+      name = "Tags"
+      url = "/tags/"
+      weight = 40
+
+# --- English (Global Image) ---
+[languages.en]
+  languageName = "🇬🇧 English"
+  weight = 2
+  contentDir = "content/en"
+  title = "WP Solution | Industrial Automation Architects"
+  
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      name = "Case Studies"
+      url = "/projects/"
+      weight = 10
+    [[languages.en.menu.main]]
+      name = "Services"
+      url = "/services/"
+      weight = 20
+    [[languages.en.menu.main]]
+      name = "About Us"
+      url = "/about/"
+      weight = 30
+    [[languages.en.menu.main]]
+      name = "Tech Stack"
+      url = "/tags/"
+      weight = 40
