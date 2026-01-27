@@ -6,7 +6,7 @@ author: ทีมงาน WP Solution
 categories: [Case Study]
 tags: [AGV, C#, MQTT, Traffic Control, Smart Factory]
 description: "ระบบบริหารจัดการจราจรหุ่นยนต์ AGV/AMR ขนาด 1.2 ตัน ในโรงงานผลิตยางรถยนต์ชั้นนำ ลดการชนและเพิ่มประสิทธิภาพการขนส่ง"
-image: images/agv-fleet-cover.jpg
+image: agv-fleet-cover.jpg
 ---
 
 # ระบบควบคุมการจราจรหุ่นยนต์ AGV ขนาด 1.2 ตัน
@@ -22,7 +22,7 @@ image: images/agv-fleet-cover.jpg
 ## แนวทางการแก้ปัญหาของเรา
 ทีมงาน WP Solution พัฒนา **"Fleet Management System"** ซึ่งเปรียบเสมือน "หอบังคับการบิน" สำหรับหุ่นยนต์ โดยใช้ C# เขียนอัลกอริทึมคำนวณเส้นทางแบบ Real-time
 
-![แผนผังระบบ](/wp-solution-web/images/agv-fleet-diagram.jpg)
+![แผนผังระบบ](agv-fleet-diagram.jpg)
 
 ### ฟังก์ชันการทำงานหลัก
 1.  **Job Queueing:** รับคำสั่งจากหน้างานและจัดคิวให้ AGV ที่ว่างที่สุดไปรับงาน
