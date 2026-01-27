@@ -6,9 +6,12 @@ author: WP Solution Team
 categories: [Case Study]
 tags: [AGV, C#, MQTT, Traffic Control, Smart Factory]
 description: "Advanced traffic control system for 1.2-ton Forklift AGVs in a tire manufacturing plant. Features real-time routing, collision avoidance, and seamless machine integration."
-image: agv-fleet-cover.jpg
+cover:
+    image: "agv-fleet-cover.jpg"
+    alt: "AGV System in Factory"
+    caption: ""
+    relative: true
 ---
-![ภาพปกระบบ AGV](agv-fleet-cover.jpg)
 
 # Smart Fleet Management for 1.2 Ton Forklift AGVs
 
