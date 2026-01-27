@@ -68,19 +68,19 @@ enableEmoji = true
   [languages.th.menu]
     [[languages.th.menu.main]]
       name = "ผลงาน (Case Studies)"
-      url = "/wp-solution-web/th/projects/"
+      url = "projects"
       weight = 10
     [[languages.th.menu.main]]
       name = "บริการ"
-      url = "/wp-solution-web/th/services/"
+      url = "services"
       weight = 20
     [[languages.th.menu.main]]
       name = "เกี่ยวกับเรา"
-      url = "/wp-solution-web/th/about/"
+      url = "about"
       weight = 30
     [[languages.th.menu.main]]
       name = "Tags"
-      url = "/wp-solution-web/th/tags/"
+      url = "tags"
       weight = 40
 
 # --- English (Global Image) ---
@@ -93,17 +93,17 @@ enableEmoji = true
   [languages.en.menu]
     [[languages.en.menu.main]]
       name = "Case Studies"
-      url = "/wp-solution-web/en/projects/"
+      url = "projects"
       weight = 10
     [[languages.en.menu.main]]
       name = "Services"
-      url = "/wp-solution-web/en/services/"
+      url = "services"
       weight = 20
     [[languages.en.menu.main]]
       name = "About Us"
-      url = "/wp-solution-web/en/about/"
+      url = "about"
       weight = 30
     [[languages.en.menu.main]]
       name = "Tech Stack"
-      url = "/wp-solution-web/en/tags/"
+      url = "tags"
       weight = 40
