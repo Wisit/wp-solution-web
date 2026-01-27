@@ -11,7 +11,7 @@
 /* Homepage Hero Section (Dark Industrial Theme) */
 /* Homepage Hero Section (Full-Width Cinematic) */
 body.list:has(.profile) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/wp-solution-web/images/smart-factory-hero-dark.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/images/smart-factory-hero-dark.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Creates a cool parallax effect */
