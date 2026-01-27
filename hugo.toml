@@ -39,10 +39,10 @@ enableEmoji = true
     # ปุ่ม Call to Action หน้าแรก
     [[params.profileMode.buttons]]
       name = "ผลงานของเรา (Projects)"
-      url = "/projects"
+      url = "projects"
     [[params.profileMode.buttons]]
       name = "บริการ (Services)"
-      url = "/services"
+      url = "services"
 
   # Social Icons (เชื่อมโยงตามไฟล์ที่ส่งมา)
   [[params.socialIcons]]
@@ -68,19 +68,19 @@ enableEmoji = true
   [languages.th.menu]
     [[languages.th.menu.main]]
       name = "ผลงาน (Case Studies)"
-      url = "/projects/"
+      pageRef = "projects"
       weight = 10
     [[languages.th.menu.main]]
       name = "บริการ"
-      url = "/services/"
+      pageRef = "services"
       weight = 20
     [[languages.th.menu.main]]
       name = "เกี่ยวกับเรา"
-      url = "/about/"
+      pageRef = "about"
       weight = 30
     [[languages.th.menu.main]]
       name = "Tags"
-      url = "/tags/"
+      pageRef = "tags"
       weight = 40
 
 # --- English (Global Image) ---
@@ -93,17 +93,17 @@ enableEmoji = true
   [languages.en.menu]
     [[languages.en.menu.main]]
       name = "Case Studies"
-      url = "/projects/"
+      pageRef = "projects"
       weight = 10
     [[languages.en.menu.main]]
       name = "Services"
-      url = "/services/"
+      pageRef = "services"
       weight = 20
     [[languages.en.menu.main]]
       name = "About Us"
-      url = "/about/"
+      pageRef = "about"
       weight = 30
     [[languages.en.menu.main]]
       name = "Tech Stack"
-      url = "/tags/"
+      pageRef = "tags"
       weight = 40
