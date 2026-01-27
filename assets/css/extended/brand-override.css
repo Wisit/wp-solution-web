@@ -9,17 +9,48 @@
 }
 
 /* Homepage Hero Section (Dark Industrial Theme) */
-body.list .main:has(.profile) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/wp-solution-web/images/smart-factory-hero-dark.jpg');
+/* Homepage Hero Section (Full-Width Cinematic) */
+body.list:has(.profile) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/wp-solution-web/images/smart-factory-hero-dark.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* Creates a cool parallax effect */
     background-repeat: no-repeat;
-    min-height: 80vh;
+    margin: 0;
+}
+
+/* Make the Top Navigation Transparent on Homepage */
+body.list:has(.profile) .nav {
+    background: transparent !important;
+    position: absolute; /* Allows it to sit ON TOP of the background */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: none; /* Remove any border */
+}
+
+/* Remove constraints from the inner container to let it breathe */
+body.list:has(.profile) main.main {
+    background: transparent !important;
+    max-width: 100% !important; /* Allow full width */
+    padding: 0;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    color: #ffffff;
-    padding: 2rem 0;
+    min-height: 100vh; /* Force it to take full screen height */
+}
+
+/* Center the Profile Content */
+body.list:has(.profile) .profile {
+    background: transparent !important; /* Ensure no inner background */
+    margin-top: 10vh; /* Push content down slightly */
+    padding: 2rem;
+}
+
+/* Fix Menu Link Colors for visibility */
+body.list:has(.profile) .nav .menu a {
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 /* Profile Container adjustments */
