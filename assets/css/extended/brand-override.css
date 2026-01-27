@@ -9,7 +9,7 @@
 }
 
 /* Homepage Hero Section (Dark Industrial Theme) */
-body.list .main {
+body.home.list .main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/wp-solution-web/images/smart-factory-hero-dark.jpg');
     background-size: cover;
     background-position: center;
