@@ -6,9 +6,14 @@ author: ทีมงาน WP Solution
 categories: [Case Study]
 tags: [AGV, C#, MQTT, Traffic Control, Smart Factory]
 description: "ระบบบริหารจัดการจราจรหุ่นยนต์ AGV/AMR ขนาด 1.2 ตัน ในโรงงานผลิตยางรถยนต์ชั้นนำ ลดการชนและเพิ่มประสิทธิภาพการขนส่ง"
-image: agv-fleet-cover.jpg
+# --- แก้ไขตรงนี้ครับ (ลบบรรทัด image: เดิมออก) ---
+cover:
+    image: "agv-fleet-cover.jpg"  # ชื่อไฟล์รูป (ไม่ต้องมี path ยาวๆ เพราะเป็น Leaf Bundle แล้ว)
+    alt: "ภาพระบบ AGV ในโรงงาน"
+    caption: ""
+    relative: true                # สำคัญมาก! ต้องใส่ true เพื่อให้มันหาไฟล์ในโฟลเดอร์เดียวกันเจอ
+# --------------------------------------------------
 ---
-![ภาพปกระบบ AGV](agv-fleet-cover.jpg)
 # ระบบควบคุมการจราจรหุ่นยนต์ AGV ขนาด 1.2 ตัน
 
 **โจทย์ที่ได้รับ:**
