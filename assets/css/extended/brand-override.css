@@ -1,0 +1,62 @@
+:root {
+    --primary: #00A896 !important; /* WP Solution Teal Color */
+    --secondary: #007F70 !important; /* Darker shade for hover states */
+}
+/* Optional: Force buttons to use this color specifically if the theme doesn't pick it up */
+.button {
+    background: var(--primary);
+    color: white;
+}
+
+/* Homepage Hero Section (Dark Industrial Theme) */
+body.list .main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/wp-solution-web/images/smart-factory-hero-dark.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+/* Profile Container adjustments */
+.profile {
+    background: transparent !important;
+    max-width: 800px;
+    margin: auto;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.profile h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #ffffff !important;
+}
+
+.profile span {
+    font-size: 1.3rem;
+    opacity: 0.95;
+    color: #e0e0e0;
+}
+
+/* Ensure buttons pop on dark background */
+.profile .buttons {
+    margin-top: 2rem;
+}
+
+.profile .button {
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.profile .button:hover {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}

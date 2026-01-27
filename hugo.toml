@@ -11,6 +11,9 @@ enableEmoji = true
 # -----------------------------------------------------------------------
 # Parameters (Profile & Styling)
 # -----------------------------------------------------------------------
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   env = "production"
   title = "WP Solution"
@@ -31,10 +34,10 @@ enableEmoji = true
     enabled = true
     title = "WP Solution Co., Ltd."
     subtitle = "Industrial Automation & Software Architecture Experts"
-    imageUrl = "images/logo.png" # เดี๋ยวเราเอารูปโลโก้ไปใส่ใน folder /static/images/
+    imageUrl = "/images/wp-logo-teal-icon.svg" # เดี๋ยวเราเอารูปโลโก้ไปใส่ใน folder /static/images/
     imageTitle = "WP Solution Logo"
-    imageWidth = 150
-    imageHeight = 150
+    imageWidth = 120
+    imageHeight = 120
     
     # ปุ่ม Call to Action หน้าแรก
     [[params.profileMode.buttons]]
