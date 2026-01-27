@@ -22,7 +22,7 @@ image: images/agv-fleet-cover.jpg
 ## แนวทางการแก้ปัญหาของเรา
 ทีมงาน WP Solution พัฒนา **"Fleet Management System"** ซึ่งเปรียบเสมือน "หอบังคับการบิน" สำหรับหุ่นยนต์ โดยใช้ C# เขียนอัลกอริทึมคำนวณเส้นทางแบบ Real-time
 
-![แผนผังระบบ](/images/agv-fleet-diagram.jpg)
+![แผนผังระบบ](/wp-solution-web/images/agv-fleet-diagram.jpg)
 
 ### ฟังก์ชันการทำงานหลัก
 1.  **Job Queueing:** รับคำสั่งจากหน้างานและจัดคิวให้ AGV ที่ว่างที่สุดไปรับงาน

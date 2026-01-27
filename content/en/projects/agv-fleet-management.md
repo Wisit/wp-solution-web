@@ -23,7 +23,7 @@ A leading tire manufacturer faced bottlenecks in transporting heavy rubber rolls
 
 WP Solution architected a comprehensive **Fleet Management System** that acts as the "Air Traffic Control" for the factory floor. The system manages job queues, calculates optimal routes, and prevents traffic jams using a dynamic node-based algorithm.
 
-![System Architecture Diagram](/images/agv-fleet-diagram.jpg)
+![System Architecture Diagram](/wp-solution-web/images/agv-fleet-diagram.jpg)
 
 ### Key Features Implemented
 
