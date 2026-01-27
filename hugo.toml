@@ -63,7 +63,7 @@ enableEmoji = true
 [languages.th]
   languageName = "🇹🇭 ไทย"
   weight = 1
-  contentDir = "content/th"
+  # contentDir = "content/th"
   
   [languages.th.menu]
     [[languages.th.menu.main]]
@@ -87,7 +87,7 @@ enableEmoji = true
 [languages.en]
   languageName = "🇬🇧 English"
   weight = 2
-  contentDir = "content/en"
+  # contentDir = "content/en"
   title = "WP Solution | Industrial Automation Architects"
   
   [languages.en.menu]
