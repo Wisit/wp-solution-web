@@ -1,7 +1,7 @@
 ---
 title: "ระบบควบคุมการจราจรหุ่นยนต์ AGV (Fleet Management 1.2 Ton)"
 slug: agv-fleet-management
-date: 2026-01-27
+date: 2026-01-26
 author: ทีมงาน WP Solution
 categories: [Case Study]
 tags: [AGV, C#, MQTT, Traffic Control, Smart Factory]

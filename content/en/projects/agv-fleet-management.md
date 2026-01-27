@@ -1,7 +1,7 @@
 ---
 title: "Smart AGV Fleet Management System (1.2 Ton)"
 slug: agv-fleet-management
-date: 2026-01-27
+date: 2026-01-26
 author: WP Solution Team
 categories: [Case Study]
 tags: [AGV, C#, MQTT, Traffic Control, Smart Factory]
