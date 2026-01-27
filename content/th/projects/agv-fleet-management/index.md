@@ -8,7 +8,7 @@ tags: [AGV, C#, MQTT, Traffic Control, Smart Factory]
 description: "ระบบบริหารจัดการจราจรหุ่นยนต์ AGV/AMR ขนาด 1.2 ตัน ในโรงงานผลิตยางรถยนต์ชั้นนำ ลดการชนและเพิ่มประสิทธิภาพการขนส่ง"
 image: agv-fleet-cover.jpg
 ---
-
+![ภาพปกระบบ AGV](images/agv-fleet-cover.jpg)
 # ระบบควบคุมการจราจรหุ่นยนต์ AGV ขนาด 1.2 ตัน
 
 **โจทย์ที่ได้รับ:**
