@@ -83,13 +83,14 @@ enableEmoji = true
       url = "about"
       weight = 30
     [[languages.th.menu.main]]
-      name = "Tags"
-      url = "tags"
-      weight = 40
-    [[languages.th.menu.main]]
       name = "ติดต่อเรา"
       url = "contact"
+      weight = 40
+    [[languages.th.menu.main]]
+      name = "Tags"
+      url = "tags"
       weight = 50
+    
 
 # --- English (Global Image) ---
 [languages.en]
@@ -112,10 +113,11 @@ enableEmoji = true
       url = "about"
       weight = 30
     [[languages.en.menu.main]]
-      name = "Tech Stack"
-      url = "tags"
-      weight = 40
-    [[languages.en.menu.main]]
       name = "Contact Us"
       url = "contact"
+      weight = 40
+    [[languages.en.menu.main]]
+      name = "Tech Stack"
+      url = "tags"
       weight = 50
+    
