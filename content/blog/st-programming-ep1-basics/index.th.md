@@ -1,7 +1,7 @@
 ---
 title: "คู่มือเขียน PLC ด้วย Structured Text (ST) Ep.1: ปูพื้นฐาน Syntax และ Data Types"
 slug: st-programming-ep1-basics
-date: 2026-01-29
+date: 2026-01-28
 author: Wisit P. (Senior Architect)
 categories: [Technical Guide]
 tags: [CODESYS, Structured Text, IEC 61131-3, Programming Basics]
