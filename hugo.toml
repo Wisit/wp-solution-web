@@ -86,6 +86,10 @@ enableEmoji = true
       name = "Tags"
       url = "tags"
       weight = 40
+    [[languages.th.menu.main]]
+      name = "ติดต่อเรา"
+      url = "contact"
+      weight = 50
 
 # --- English (Global Image) ---
 [languages.en]
@@ -111,3 +115,7 @@ enableEmoji = true
       name = "Tech Stack"
       url = "tags"
       weight = 40
+    [[languages.en.menu.main]]
+      name = "Contact Us"
+      url = "contact"
+      weight = 50
