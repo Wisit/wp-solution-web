@@ -75,25 +75,29 @@ enableEmoji = true
       url = "projects"
       weight = 10
     [[languages.th.menu.main]]
+      name = "บทความเทคนิค (Tech Blog)"
+      url = "blog"
+      weight = 20
+    [[languages.th.menu.main]]
       name = "บริการ"
       url = "services"
-      weight = 20
+      weight = 30
     [[languages.th.menu.main]]
       name = "เกี่ยวกับเรา"
       url = "about"
-      weight = 30
+      weight = 40
     [[languages.th.menu.main]]
       name = "ติดต่อเรา"
       url = "contact"
-      weight = 40
+      weight = 50
     [[languages.th.menu.main]]
       name = "นโยบายความเป็นส่วนตัว"
       url = "privacy"
-      weight = 50
+      weight = 60
     [[languages.th.menu.main]]
       name = "Tags"
       url = "tags"
-      weight = 60
+      weight = 70
     
 
 # --- English (Global Image) ---
@@ -109,23 +113,27 @@ enableEmoji = true
       url = "projects"
       weight = 10
     [[languages.en.menu.main]]
+      name = "Tech Blog"
+      url = "blog"
+      weight = 20
+    [[languages.en.menu.main]]
       name = "Services"
       url = "services"
-      weight = 20
+      weight = 30
     [[languages.en.menu.main]]
       name = "About Us"
       url = "about"
-      weight = 30
+      weight = 40
     [[languages.en.menu.main]]
       name = "Contact Us"
       url = "contact"
-      weight = 40
+      weight = 50
     [[languages.en.menu.main]]
       name = "Privacy Policy"
       url = "privacy"
-      weight = 50
+      weight = 60
     [[languages.en.menu.main]]
       name = "Tech Stack"
       url = "tags"
-      weight = 60
+      weight = 70
     
