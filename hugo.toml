@@ -105,7 +105,7 @@ enableEmoji = true
   languageName = "🇬🇧 English"
   weight = 2
   # contentDir = "content/en"
-  title = "WP Solution | Industrial Automation Architects"
+  title = "WP Solution Co., Ltd."
   
   [languages.en.menu]
     [[languages.en.menu.main]]
