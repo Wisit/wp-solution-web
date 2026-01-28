@@ -87,9 +87,13 @@ enableEmoji = true
       url = "contact"
       weight = 40
     [[languages.th.menu.main]]
+      name = "นโยบายความเป็นส่วนตัว"
+      url = "privacy"
+      weight = 50
+    [[languages.th.menu.main]]
       name = "Tags"
       url = "tags"
-      weight = 50
+      weight = 60
     
 
 # --- English (Global Image) ---
@@ -117,7 +121,11 @@ enableEmoji = true
       url = "contact"
       weight = 40
     [[languages.en.menu.main]]
+      name = "Privacy Policy"
+      url = "privacy"
+      weight = 50
+    [[languages.en.menu.main]]
       name = "Tech Stack"
       url = "tags"
-      weight = 50
+      weight = 60
     
