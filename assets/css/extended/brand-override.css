@@ -129,21 +129,20 @@ body.list:has(.profile) .nav .menu a {
 /* Header Alignment Adjustments */
 /* ----------------------------------------------------------------------- */
 
-/* 1. Homepage (Profile Mode): Align Left */
-body.list:has(.profile) .nav {
-    justify-content: flex-start !important; /* Force Left Alignment */
-    padding-left: 4vw; /* Add some adaptive padding */
-    max-width: 100% !important; /* Span full width */
+/* ----------------------------------------------------------------------- */
+/* Header Alignment Adjustments (Unified) */
+/* ----------------------------------------------------------------------- */
+
+/* Apply Center Alignment Globaly (Home & Subpages) */
+/* This places [Title] [Menu] in the visual center of the screen */
+.nav {
+    justify-content: center !important; 
+    flex-wrap: wrap;
+    padding-left: 0 !important; /* Remove any previous forced padding */
+    max-width: 100% !important;
 }
 
-/* 2. Subpages (Standard Pages): Align Center */
-/* Note: We target bodies that are NOT the profile homepage */
-body:not(.list:has(.profile)) .nav {
-    justify-content: center !important; /* Center the flex container content */
-    flex-wrap: wrap; /* Allow wrapping if screen is small */
-}
-
-/* Ensure Logo and Menu have spacing when centered */
-body:not(.list:has(.profile)) .logo {
+/* Ensure Logo has some breathing room when next to the menu */
+.logo {
     margin-right: 20px;
 }
