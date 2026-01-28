@@ -91,3 +91,36 @@ body.list:has(.profile) .nav .menu a {
     color: var(--primary);
     border-color: var(--primary);
 }
+
+/* ----------------------------------------------------------------------- */
+/* Fix Menu Wrapping (Compact Mode) */
+/* ----------------------------------------------------------------------- */
+.header .menu {
+    /* Ensure items stay in one line */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Enable horizontal scrolling on very small screens */
+    align-items: center;
+    gap: 10px; /* Reduce gap between items */
+    padding-right: 20px; /* Safe area on the right */
+}
+
+/* Reduce font size and remove default large margins */
+.header .menu li {
+    margin-left: 0 !important; /* Override theme's default margin */
+    white-space: nowrap;
+}
+
+.header .menu .menu-item {
+    font-size: 14px; /* Reduce from default (usually 16px) */
+    padding: 0 5px;  /* Tighter padding */
+}
+
+/* Hide scrollbar for cleaner UI */
+.header .menu::-webkit-scrollbar {
+    display: none;
+}
+.header .menu {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
