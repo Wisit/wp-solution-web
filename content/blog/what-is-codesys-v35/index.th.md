@@ -52,4 +52,4 @@ CODESYS V3.5 ไม่ได้เป็นแค่ตัวเขียน Log
 > **CODESYS V3.5** คือ Ecosystem ที่สมบูรณ์สำหรับนักพัฒนา Automation ยุคใหม่ ที่ต้องการเครื่องมือที่ทรงพลัง ยืดหยุ่น และไม่ผูกขาดกับยี่ห้อใดนั่นเองครับ
 
 ---
-**อ่านต่อบทความถัดไป:** [คู่มือเขียน PLC ด้วย Structured Text (ST) Ep.1: ปูพื้นฐาน Syntax และ Data Types](/blog/st-programming-ep1-basics) 
+**อ่านต่อบทความถัดไป:** [คู่มือเขียน PLC ด้วย Structured Text (ST) Ep.1: ปูพื้นฐาน Syntax และ Data Types](/blog/st-programming-ep1-basics/) 
