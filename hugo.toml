@@ -112,10 +112,7 @@ enableEmoji = true
       name = "Case Studies"
       url = "projects"
       weight = 10
-    [[languages.en.menu.main]]
-      name = "Tech Blog"
-      url = "blog"
-      weight = 20
+
     [[languages.en.menu.main]]
       name = "Services"
       url = "services"
