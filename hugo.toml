@@ -20,7 +20,7 @@ enableEmoji = true
   description = "ผู้เชี่ยวชาญโซลูชั่นระบบอัตโนมัติและซอฟต์แวร์อุตสาหกรรม (Industrial Automation & Software Architect)"
   keywords = ["Automation", "PLC", "C#", "IoT", "Smart Factory", "AGV", "Fleet Management"]
   author = "WP Solution Team"
-  favicon = "/favicon.svg"
+  favicon = "/favicon.ico"
   
   # Theme Settings
   defaultTheme = "auto"    # รองรับ Dark Mode อัตโนมัติ
