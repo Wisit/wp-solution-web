@@ -167,4 +167,5 @@ xFan := xSystemOn AND NOT xError AND (rTemp > 80.0) AND xSafetyDoorClosed;
 ---
 
 หวังว่าสรุปนี้จะช่วยให้คุณ Map Logic จาก C# มาสู่ CODESYS ได้อย่างมั่นใจนะครับ!
+
 **ติดตามต่อใน EP.3:** เราจะมาดูเรื่อง **Loops (FOR, WHILE)** และการจัดการ Array กันครับ
