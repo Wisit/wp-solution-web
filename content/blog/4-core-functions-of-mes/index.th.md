@@ -1,7 +1,7 @@
 ---
 title: "เจาะลึก 4 หัวใจสำคัญของ MES: เปลี่ยนโรงงานธรรมดาให้เป็น Smart Factory"
 slug: 4-core-functions-of-mes
-date: 2026-02-05
+date: 2026-02-03
 author: ทีมงาน WP Solution
 categories: [Technical Guide]
 tags: [MES, Smart Factory, OEE, Traceability, Industry 4.0]
