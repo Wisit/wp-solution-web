@@ -1,7 +1,7 @@
 ---
 title: "สรุปจาก Senior SA: โรงงานแบบไหนถึงจะเรียกว่า 4.0? (Smart Factory Checklist)"
 slug: what-is-smart-factory-4-0
-date: 2026-02-08
+date: 2026-02-07
 author: Senior System Analyst | WP Solution
 categories: [Technical Guide]
 tags: [Industry 4.0, IIoT, Smart Factory, Digital Twin]
